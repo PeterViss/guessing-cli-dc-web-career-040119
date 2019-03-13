@@ -8,6 +8,8 @@ def run_guessing_game
   else
     puts "The computer guessed #{random_numb}."
   end
+  comp_num = rand(1..6)
+  user_input = gets.chomp
   if user_input == "exit"
     puts "Goodbye!"
 end
