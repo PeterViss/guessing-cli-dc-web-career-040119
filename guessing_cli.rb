@@ -11,5 +11,6 @@ def run_guessing_game
   else
     puts "The computer guessed #{random_numb}."
   end
-
+  user_input = gets.chomp
+  random_numb = rand(1..6)
 end
