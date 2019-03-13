@@ -6,7 +6,7 @@ def run_guessing_game
   case user_input
   when  user_input.to_i == random_numb
     puts "You guessed the correct number!"
-  when  "exit"
+  when  user_input == "exit"
     puts "Goodbye!"
   else
     puts "The computer guessed #{random_numb}."
